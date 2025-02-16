@@ -2,6 +2,10 @@
 
 int main()
 {
-	randomChump("Decaye");
+	randomChump("Shambler");
+	
+	Zombie* zombie { newZombie("Vormund") };
+	zombie->announce();
+	// delete (zombie);
 	return (0);
 }

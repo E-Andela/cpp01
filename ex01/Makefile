@@ -2,10 +2,10 @@ CC = c++
 
 FLAGS = -Wall -Wextra -Werror
 
-TARGET = BraiiiiiiinnnzzzZ
+TARGET = Moar-brainz!
 
 SRC_DIR = src
-SRC = $(SRC_DIR)/main.cpp $(SRC_DIR)/newZombie.cpp $(SRC_DIR)/randomChump.cpp $(SRC_DIR)/Zombie.cpp
+SRC = $(SRC_DIR)/main.cpp $(SRC_DIR)/Zombie.cpp $(SRC_DIR)/zombieHorde.cpp
 
 OBJ_DIR = obj
 OBJ = $(SRC:$(SRC_DIR)/%.cpp=$(OBJ_DIR)/%.o)

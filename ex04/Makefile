@@ -5,7 +5,7 @@ CC = c++
 TARGET = Sed-is-for-losers
 
 SRC_DIR = src
-SRC =	$(SRC_DIR)/main.cpp
+SRC = $(SRC_DIR)/main.cpp
 
 OBJ_DIR = obj
 OBJ = $(SRC:$(SRC_DIR)/%.cpp=$(OBJ_DIR)/%.o)

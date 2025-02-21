@@ -5,10 +5,10 @@
 int main(int argc, char* argv[])
 {
 	if (argc != 4)
-{
-    std::cerr << "Usage: " << argv[0] << " <filename> <search_string> <replace_string>" << std::endl;
-    return (EXIT_FAILURE);
-}
+	{
+		std::cerr << "Usage: " << argv[0] << " <filename> <search_string> <replace_string>" << std::endl;
+		return (EXIT_FAILURE);
+	}
 
 	std::ifstream file {argv[1]};
 	if (!file.is_open())

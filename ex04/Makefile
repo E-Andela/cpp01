@@ -1,6 +1,6 @@
 CC = c++
 
-FLAGS = -Wall -Wextra -Werror
+# FLAGS = -Wall -Wextra -Werror
 
 TARGET = Sed-is-for-losers
 

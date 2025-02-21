@@ -6,6 +6,6 @@ int main()
 	
 	Zombie* zombie { newZombie("Vormund") };
 	zombie->announce();
-	// delete (zombie);
+	delete (zombie);
 	return (0);
 }
